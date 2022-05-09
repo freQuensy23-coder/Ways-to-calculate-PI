@@ -28,7 +28,7 @@ float euler(int n){
 	float res = 0;
 	float pi = 0;
 	for (int i=1; i<n; i++){
-		res = res + 1/i/i;
+		res = res +  static_cast<float>(static_cast<float>(1.0/i)/i);
 		pi = sqrt(6 * res);	
 		fout << setprecision(numeric_limits<long double>::digits10 + 1) << pi << "\n";
 	}
