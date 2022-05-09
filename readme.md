@@ -19,4 +19,10 @@ an alternating series. It is also called the Madhava-Leibniz series as it is a s
 In mathematics, the Wallis product for π, published in 1656 by John Wallis:
 ![formula](https://render.githubusercontent.com/render/math?math={\frac{\pi}{2}}=\prod_{n=1}^{\infty}{\frac{(2n)^{2}}{(2n-1)(2n+1)}}={\frac{2}{1}}\cdot{\frac{2}{3}}\cdot{\frac{4}{3}}\cdot{\frac{4}{5}}\cdot{\frac{6}{5}}\cdot{\frac{6}{7}}\cdot{\frac{8}{7}}\cdot{\frac{8}{9}}\cdot{\frac{10}{9}}\cdot{\frac{10}{11}}\cdot\ldots)
 
+## Usage
 
+```
+calc_pi [n]
+```
+
+int n - number of iterations
