@@ -4,7 +4,7 @@
 #include <cmath>
 #include <limits>
 #include <math.h>
-
+#include <cstdlib>
 
 using namespace std;
 
@@ -37,9 +37,38 @@ float euler(int n){
 }
 
 
-int main(){
-	int n = 50;
-	float q=leibinz(n);
-	cout << euler(n);
+//Valise product
+float valise(int n){
+	ofstream fout("valise_res.txt");
+	float pi = 2.0;
+	for (int i=1; i<n; i++){
+		pi = pi * (4 * i * i) / (4 * i * i - 1);
+		fout << setprecision(numeric_limits<long double>::digits10 + 1) << pi << "\n";
+	}
+	return pi;
 }
 
+///n^4
+float calc_pi(int n){
+	ofstream fout("1n4_res.txt");
+	float pi = 0.0;
+	float res = 0.0;
+	for (int i=1; i<n; i++){
+		res = res + 1.0/i/i/i/i;
+		pi = sqrt(sqrt(90 * res));
+		fout << setprecision(numeric_limits<long double>::digits10 + 1) << pi << "\n";
+	}
+	return pi;	
+}
+
+int main(int argc, char**  argv){
+//	int n = 50;
+//	int n = atoi(argv[1]); // TODO INVALID IF 0. It is C style use strtol instead.
+	int n = 0;
+	if (argc > 1){
+		n = atoi(argv[1]);}
+	cout << leibinz(n) << "\n";
+	cout << euler(n) << "\n";
+	cout << valise(n) << "\n";
+	cout << calc_pi(n) << "\n";
+}
