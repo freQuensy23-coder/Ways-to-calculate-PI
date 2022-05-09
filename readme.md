@@ -3,7 +3,7 @@
 Support 4 series: Euler, Leibniz, Valise and ![formula](https://render.githubusercontent.com/render/math?math=\frac{1}{n^4})
 
 ## Euler
-![formula](https://render.githubusercontent.com/render/math?math= \sum _{n=1}^{\infty }{\frac {1}{n^{2}}}={\frac {1}{1^{2}}}+{\frac {1}{2^{2}}}+{\frac {1}{3^{2}}}+\cdots = \frac{\pi^2}{6})
+![formula](https://render.githubusercontent.com/render/math?math=\sum_{n=1}^{\infty}{\frac{1}{n^{2}}}={\frac{1}{1^{2}}}+{\frac{1}{2^{2}}}+{\frac{1}{3^{2}}}+\cdots=\frac{\pi^2}{6})
 
 ## Leibniz
 
