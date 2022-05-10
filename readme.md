@@ -19,6 +19,11 @@ an alternating series. It is also called the Madhava-Leibniz series as it is a s
 In mathematics, the Wallis product for π, published in 1656 by John Wallis:
 ![formula](https://render.githubusercontent.com/render/math?math={\frac{\pi}{2}}=\prod_{n=1}^{\infty}{\frac{(2n)^{2}}{(2n-1)(2n+1)}}={\frac{2}{1}}\cdot{\frac{2}{3}}\cdot{\frac{4}{3}}\cdot{\frac{4}{5}}\cdot{\frac{6}{5}}\cdot{\frac{6}{7}}\cdot{\frac{8}{7}}\cdot{\frac{8}{9}}\cdot{\frac{10}{9}}\cdot{\frac{10}{11}}\cdot\ldots)
 
+## Series ![formula](https://render.githubusercontent.com/render/math?math=\frac{1}{n^4})
+
+![formula](https://render.githubusercontent.com/render/math?math=\sum_1^n \ \frac{1}{n^4} = \frac{\pi^4}{90})
+
+The fastest coverage, but taking a fourth-degree root takes a lot of computer time
 ## Usage
 
 ```
