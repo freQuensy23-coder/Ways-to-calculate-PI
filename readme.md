@@ -31,3 +31,9 @@ calc_pi [n]
 ```
 
 int n - number of iterations
+
+## Results 
+You can see withualiser code and interactive plots using [this](https://colab.research.google.com/drive/1HEcgK7cDQGLyNIlEcFTcWrih1RNJkyWi?usp=sharing) link
+
+![plot1](/photos/plot1.png)
+![plot1](/photos/plot2.png)
