@@ -21,7 +21,7 @@ In mathematics, the Wallis product for π, published in 1656 by John Wallis:
 
 ## Series ![formula](https://render.githubusercontent.com/render/math?math=\frac{1}{n^4})
 
-![formula](https://render.githubusercontent.com/render/math?math=\sum_1^n \ \frac{1}{n^4} = \frac{\pi^4}{90})
+![formula](https://render.githubusercontent.com/render/math?math=\sum_1^n\frac{1}{n^4}=\frac{\pi^4}{90})
 
 The fastest coverage, but taking a fourth-degree root takes a lot of computer time
 ## Usage
